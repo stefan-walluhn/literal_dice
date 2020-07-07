@@ -6,6 +6,6 @@ class LiteralDice(object):
         self.word = word
 
     def shuffle(self):
-        l = list(self.word)
-        random.shuffle(l)
-        return ''.join(l)
+        char_list = list(self.word)
+        random.shuffle(char_list)
+        return ''.join(char_list)

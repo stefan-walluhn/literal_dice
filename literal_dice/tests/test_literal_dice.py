@@ -1,6 +1,4 @@
-from random import Random
 from unittest import TestCase
-from unittest.mock import patch
 
 from literal_dice.literal_dice import LiteralDice
 from literal_dice.tests.utils import patch_shuffle
